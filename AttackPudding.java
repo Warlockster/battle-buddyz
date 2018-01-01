@@ -2,9 +2,9 @@ package com.company;
 
 public class AttackPudding extends StatPudding
 {
-    public AttackPudding()
+    public AttackPudding(int owner)
     {
-        super("Attack Pudding", "atk", 1.25)
+        super("Attack Pudding", owner, "atk", 1.25)
     }
     
     public String toString()
