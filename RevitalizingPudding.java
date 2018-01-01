@@ -4,9 +4,9 @@ public class RevitalizingPudding extends Item
 {
     private int target;
     
-    public RevitalizingPudding(String name, int target)
+    public RevitalizingPudding(String name, int owner, int target)
     {
-        super(name);
+        super(name, owner);
         this.target = target;
     }
     
