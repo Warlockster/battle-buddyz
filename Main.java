@@ -35,7 +35,7 @@ public class Main
         albertTheUnicornMoves[1] = new Move();
         albertTheUnicornMoves[2] = new Move();
         albertTheUnicornMoves[3] = new Move();
-        flaxon = new Buddy("Albert the Unicorn", 100, 50, 50, 50, albertTheUnicornMoves, "");
+        albertTheUnicorn = new Buddy("Albert the Unicorn", 100, 50, 50, 50, albertTheUnicornMoves, "");
         buddyList[1] = albertTheUnicorn;
     }
 }
