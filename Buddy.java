@@ -16,6 +16,8 @@ public class Buddy
     private Move[] moveList;
     // Bio
     private String bio;
+    // Owner
+    private int owner;
 
     public Buddy(String name, int hp, int atk, int def, int eva, Move[] moveList, String bio)
     {
@@ -26,6 +28,7 @@ public class Buddy
         this.eva = eva;
         this.moveList = moveList;
         this.bio = bio;
+        owner = NONE;
     }
 
     public Buddy()
@@ -67,6 +70,11 @@ public class Buddy
     {
         return moveList[index];
     }
+    
+    public int getOwner()
+    {
+        return owner;
+    }
 
     public void setName(String name)
     {
@@ -101,6 +109,11 @@ public class Buddy
     public void setMove(int index, Move move)
     {
         moveList[index] = move;
+    }
+    
+    public void setOwner(int owner)
+    {
+        this.owner = owner;
     }
 
     public void addHp(int hpChange)
