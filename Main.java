@@ -167,37 +167,37 @@ public class Main
         
         Buddy rocketRabbit = null;
         Move[] rocketRabbitMoves = new Move[NUM_MOVES];
-        rocketRabbitMoves[0] = new StatMove();
-        rocketRabbitMoves[1] = new StatMove();
-        rocketRabbitMoves[2] = new DamageMove();
-        rocketRabbitMoves[3] = new DamageMove();
-        rocketRabbit = new Buddy("Rocket Rabbit", 150, 20, 30, rocketRabbitMoves, "");
+        rocketRabbitMoves[0] = new StatMove("Unstable Fuel", 50, "eva", SELF, 10);
+        rocketRabbitMoves[1] = new StatMove("Turbo Charge", 75, "atk", SELF, 10);
+        rocketRabbitMoves[2] = new DamageMove("Rocket", 95, 15, 1);
+        rocketRabbitMoves[3] = new DamageMove("Experimental Rocket", 75, 35, 5);
+        rocketRabbit = new Buddy("Rocket Rabbit", 150, 20, 30, rocketRabbitMoves, "This is a rabbit who loves to play with rockets!");
         buddyList[16] = rocketRabbit;
         
         Buddy sudsTheNinjaBorg = null;
         Move[] sudsTheNinjaBorgMoves = new Move[NUM_MOVES];
-        sudsTheNinjaBorgMoves[0] = new DamageMove();
-        sudsTheNinjaBorgMoves[1] = new StatMove();
-        sudsTheNinjaBorgMoves[2] = new StatMove();
-        sudsTheNinjaBorgMoves[3] = new DamageMove();
-        sudsTheNinjaBorg = new Buddy("Suds The NinjaBorg", 120, 7, 45, 7, sudsTheNinjaBorgMoves, "");
+        sudsTheNinjaBorgMoves[0] = new DamageMove("Cyber Sheriken", 95, 40, 1);
+        sudsTheNinjaBorgMoves[1] = new StatMove("Soapy Suds", 95, "eva", ENEMY, 0.75);
+        sudsTheNinjaBorgMoves[2] = new HealMove("Soapy Clean", 20);
+        sudsTheNinjaBorgMoves[3] = new DamageMove("Lazer Beam", 75, 68, 1);
+        sudsTheNinjaBorg = new Buddy("Suds The NinjaBorg", 120, 7, 45, 7, sudsTheNinjaBorgMoves, "His name is Suds and he is a cyborg ninja!");
         buddyList[17] = sudsTheNinjaBorg;
         
         Buddy emberTheDemoness = null;
         Move[] emberTheDemonessMoves = new Move[NUM_MOVES];
-        emberTheDemonessMoves[0] = new DamageMove();
-        emberTheDemonessMoves[1] = new DamageMove();
-        emberTheDemonessMoves[2] = new DamageMove();
-        emberTheDemonessMoves[3] = new StatMove();
-        emberTheDemoness = new Buddy("Ember The Demoness", 250, 15, 35, 5, emberTheDemonessMoves, "A sassy, dark-haired demoness");
+        emberTheDemonessMoves[0] = new DamageMove("Fire Ball", 80, 45, 1);
+        emberTheDemonessMoves[1] = new DamageMove("Pitchfork Jab", 90, 25, 2);
+        emberTheDemonessMoves[2] = new StatMove("Illusion", 90, "eva", SELF, 5);
+        emberTheDemonessMoves[3] = new StatMove("Charm", 80, "atk", ENEMY, -10);
+        emberTheDemoness = new Buddy("Ember The Demoness", 250, 15, 35, 5, emberTheDemonessMoves, "A sassy, dark-haired demoness!");
         buddyList[18] = emberTheDemoness;
         
         Buddy traceyTheTortoise = null;
         Move[] traceyTheTortoiseMoves = new Move[NUM_MOVES];
-        traceyTheTortoiseMoves[0] = new DamageMove();
-        traceyTheTortoiseMoves[1] = new DamageMove();
-        traceyTheTortoiseMoves[2] = new StatMove();
-        traceyTheTortoiseMoves[3] = new StatMove();
+        traceyTheTortoiseMoves[0] = new DamageMove("Shell Shocker", 90, 20, 5);
+        traceyTheTortoiseMoves[1] = new DamageMove("Hyper Blast", 10, 1000, 0, true);
+        traceyTheTortoiseMoves[2] = new StatMove("Shell Boost", 90, "atk", SELF, 5);
+        traceyTheTortoiseMoves[3] = new StatMove("Charm", 80, "atk", ENEMY, -10);
         traceyTheTortoise = new Buddy("Tracey The Tortoise", 300, 5, 50, 10, traceyTheTortoiseMoves, "");
         buddyList[19] = traceyTheTortoise;
     }
