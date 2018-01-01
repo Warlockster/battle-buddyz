@@ -22,10 +22,11 @@ public class Main
     {
         Buddy flaxon = null;
         Move[] flaxonMoves = new Move[NUM_MOVES];
-        flaxonMoves[0] = new Move();
-        flaxonMoves[1] = new Move();
+        flaxonMoves[0] = new DamageMove(/*name, acc, priority, power, critChance, critMult(if needed), needsCharge*/);
+        flaxonMoves[1] = new StatMove(/*name, acc, priority, stat, target(SELF or ENEMY), statChange*/);
         flaxonMoves[2] = new Move();
         flaxonMoves[3] = new Move();
+        //                           hp   atk def eva moveList     bio
         flaxon = new Buddy("Flaxon", 100, 50, 50, 50, flaxonMoves, "");
         buddyList[0] = flaxon;
 
