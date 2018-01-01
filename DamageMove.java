@@ -11,36 +11,36 @@ public class DamageMove extends Move
     // True if needs charge
     private boolean needsCharge;
 
-    public DamageMove(String name, int acc, int priority, int pow, double critChance)
+    public DamageMove(String name, int acc, int pow, double critChance)
     {
-        super(name, acc, priority);
+        super(name, acc);
         this.pow = pow;
         this.critChance = critChance;
         this.critMult = 1.5;
         this.needsCharge = false;
     }
 
-    public DamageMove(String name, int acc, int priority, int pow, double critChance, double critMult)
+    public DamageMove(String name, int acc, int pow, double critChance, double critMult)
     {
-        super(name, acc, priority);
+        super(name, acc);
         this.pow = pow;
         this.critChance = critChance;
         this.critMult = critMult;
         this.needsCharge = false;
     }
 
-    public DamageMove(String name, int acc, int priority, int pow, double critChance, boolean needsCharge)
+    public DamageMove(String name, int acc, int pow, double critChance, boolean needsCharge)
     {
-        super(name, acc, priority);
+        super(name, acc);
         this.pow = pow;
         this.critChance = critChance;
         this.critMult = 1.5;
         this.needsCharge = needsCharge;
     }
 
-    public DamageMove(String name, int acc, int priority, int pow, double critChance, double critMult, boolean needsCharge)
+    public DamageMove(String name, int acc, int pow, double critChance, double critMult, boolean needsCharge)
     {
-        super(name, acc, priority);
+        super(name, acc);
         this.pow = pow;
         this.critChance = critChance;
         this.critMult = critMult;
