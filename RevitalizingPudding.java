@@ -14,4 +14,9 @@ public class RevitalizingPudding extends Item
     {
         return target;
     }
+    
+    public void setTarget(int target)
+    {
+        this.target = target;
+    }
 }
