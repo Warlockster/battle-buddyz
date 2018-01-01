@@ -74,5 +74,59 @@ public class Main
         solarEagleMoves[3] = new Move();
         solarEagle = new Buddy("Solar Eagle", 200, 15, 30, 7, solarEagleMoves, "");
         buddyList[5] = solarEagle;
+        
+        Buddy wackyWally = null;
+        Move[] wackyWallyMoves = new Move[NUM_MOVES];
+        wackyWallyMoves[0] = new Move();
+        wackyWallyMoves[1] = new Move();
+        wackyWallyMoves[2] = new Move();
+        wackyWallyMoves[3] = new Move();
+        wackyWally = new Buddy("Wacky Wally", 150, 0, 60, 5, wackyWallyMoves, "");
+        buddyList[6] = wackyWally;
+        
+        Buddy alexTheSpider = null;
+        Move[] alexTheSpiderMoves = new Move[NUM_MOVES];
+        alexTheSpiderMoves[0] = new Move();
+        alexTheSpiderMoves[1] = new Move();
+        alexTheSpiderMoves[2] = new Move();
+        alexTheSpiderMoves[3] = new Move();
+        alexTheSpider = new Buddy("Alex the Spider", 100, 1, 30, 10, alexTheSpiderMoves, "");
+        buddyList[7] = alexTheSpider;
+        
+        Buddy solatario = null;
+        Move[] solatarioMoves = new Move[NUM_MOVES];
+        solatarioMoves[0] = new Move();
+        solatarioMoves[1] = new Move();
+        solatarioMoves[2] = new Move();
+        solatarioMoves[3] = new Move();
+        solatario = new Buddy("Solatario", 250, 5, 25, 10, solatarioMoves, "");
+        buddyList[8] = solatario;
+        
+        Buddy warlockGuy = null;
+        Move[] warlockGuyMoves = new Move[NUM_MOVES];
+        warlockGuyMoves[0] = new Move();
+        warlockGuyMoves[1] = new Move();
+        warlockGuyMoves[2] = new Move();
+        warlockGuyMoves[3] = new Move();
+        warlockGuy = new Buddy("Warlock Guy", 250, 15, 30, 0, warlockGuyMoves, "");
+        buddyList[9] = warlockGuy;
+        
+        Buddy fatCharlie = null;
+        Move[] fatCharlieMoves = new Move[NUM_MOVES];
+        fatCharlieMoves[0] = new Move();
+        fatCharlieMoves[1] = new Move();
+        fatCharlieMoves[2] = new Move();
+        fatCharlieMoves[3] = new Move();
+        fatCharlie = new Buddy("Fat Charlie", 300, 5, 40, 0, fatCharlieMoves, "");
+        buddyList[10] = fatCharlie;
+        
+        Buddy louieTheWrench = null;
+        Move[] louieTheWrenchMoves = new Move[NUM_MOVES];
+        louieTheWrenchMoves[0] = new Move();
+        louieTheWrenchMoves[1] = new Move();
+        louieTheWrenchMoves[2] = new Move();
+        louieTheWrenchMoves[3] = new Move();
+        louieTheWrench = new Buddy("Louie The Wrench", 150, 15, 30, 5, louieTheWrenchMoves, "");
+        
     }
 }
