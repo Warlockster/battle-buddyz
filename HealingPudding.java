@@ -5,9 +5,9 @@ public class HealingPudding extends Item
     private int healAmt;
     private int target;
 
-    public HealingPudding(String name, int healAmt, int target)
+    public HealingPudding(String name, int owner, int healAmt, int target)
     {
-        super(name);
+        super(name, owner);
         this.healAmt = healAmt;
         this.target = target;
     }
