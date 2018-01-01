@@ -2,10 +2,6 @@ package com.company;
 
 public class Item
 {
-    public final NONE = 0;
-    public final PLAYER_1 = 1;
-    public final PLAYER_2 = 2;
-    
     private String name;
     private int owner;
     private boolean isUsed;
