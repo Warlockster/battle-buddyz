@@ -4,13 +4,11 @@ public class Move
 {
     private String name;
     private int acc;
-    private int priority;
 
-    public Move(String name, int acc, int priority)
+    public Move(String name, int acc)
     {
         this.name = name;
         this.acc = acc;
-        this.priority = priority;
     }
 
     public Move()
@@ -28,11 +26,6 @@ public class Move
         return acc;
     }
 
-    public int getPriority()
-    {
-        return priority;
-    }
-
     public void setName(String name)
     {
         this.name = name;
@@ -41,11 +34,6 @@ public class Move
     public void setAcc(int acc)
     {
         this.acc = acc;
-    }
-
-    public void setPriority(int priority)
-    {
-        this.priority = priority;
     }
 
 
