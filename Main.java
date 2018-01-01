@@ -36,7 +36,16 @@ public class Main
         albertTheUnicornMoves[1] = new Move();
         albertTheUnicornMoves[2] = new Move();
         albertTheUnicornMoves[3] = new Move();
-        albertTheUnicorn = new Buddy("Albert the Unicorn", 100, 50, 50, 50, albertTheUnicornMoves, "");
+        albertTheUnicorn = new Buddy("Albert the Unicorn", 200, 10, 2, 5, albertTheUnicornMoves, "");
         buddyList[1] = albertTheUnicorn;
+       
+        Buddy sillyBilly = null;
+        Move[] sillyBillyMoves = new Move[NUM_MOVES];
+        sillyBillyMoves[0] = new Move();
+        sillyBillyMoves[1] = new Move();
+        sillyBillyMoves[2] = new Move();
+        sillyBillyMoves[3] = new Move();
+        sillyBilly = new Buddy("Silly Billy", 100, 15, 2, 2, sillyBillyMoves, "");
+        buddyList[2] = sillyBilly;
     }
 }
