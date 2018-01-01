@@ -11,17 +11,17 @@ public class StatMove extends Move
     private int target;
     private double statChange;
 
-    public StatMove(String name, int acc, int priority, String stat, int target, int statChange)
+    public StatMove(String name, int acc, String stat, int target, int statChange)
     {
-        super(name, acc, priority);
+        super(name, acc);
         this.stat = stat;
         this.target = target;
         this.statChange = statChange;
     }
 
-    public StatMove(String name, int acc, int priority, String stat, int target, double statChange)
+    public StatMove(String name, int acc, String stat, int target, double statChange)
     {
-        super(name, acc, priority);
+        super(name, acc);
         this.stat = stat;
         this.target = target;
         this.statChange = statChange;
