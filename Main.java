@@ -27,7 +27,7 @@ public class Main
         flaxonMoves[2] = new Move();
         flaxonMoves[3] = new Move();
         //                           hp   atk def eva moveList     bio
-        flaxon = new Buddy("Flaxon", 100, 50, 50, 50, flaxonMoves, "");
+        flaxon = new Buddy("Flaxon", 175, 5, 50, 5, flaxonMoves, "");
         buddyList[0] = flaxon;
 
         Buddy albertTheUnicorn = null;
@@ -36,7 +36,7 @@ public class Main
         albertTheUnicornMoves[1] = new Move();
         albertTheUnicornMoves[2] = new Move();
         albertTheUnicornMoves[3] = new Move();
-        albertTheUnicorn = new Buddy("Albert the Unicorn", 200, 10, 50, 5, albertTheUnicornMoves, "");
+        albertTheUnicorn = new Buddy("Albert The Unicorn", 200, 10, 50, 5, albertTheUnicornMoves, "");
         buddyList[1] = albertTheUnicorn;
        
         Buddy sillyBilly = null;
@@ -54,7 +54,7 @@ public class Main
         bubblesTheClownbotMoves[1] = new Move();
         bubblesTheClownbotMoves[2] = new Move();
         bubblesTheClownbotMoves[3] = new Move();
-        bubblesTheClownbot = new Buddy("Bubbles the Clownbot", 250, 15, 70, 0, bubblesTheClownbotMoves, "");
+        bubblesTheClownbot = new Buddy("Bubbles The Clownbot", 250, 15, 70, 0, bubblesTheClownbotMoves, "");
         buddyList[3] = bubblesTheClownbot;
         
         Buddy lunarPhoenix = null;
@@ -90,7 +90,7 @@ public class Main
         alexTheSpiderMoves[1] = new Move();
         alexTheSpiderMoves[2] = new Move();
         alexTheSpiderMoves[3] = new Move();
-        alexTheSpider = new Buddy("Alex the Spider", 100, 1, 30, 10, alexTheSpiderMoves, "");
+        alexTheSpider = new Buddy("Alex The Spider", 100, 1, 30, 10, alexTheSpiderMoves, "");
         buddyList[7] = alexTheSpider;
         
         Buddy solatario = null;
@@ -162,7 +162,43 @@ public class Main
         grandmamaMoves[1] = new Move();
         grandmamaMoves[2] = new Move();
         grandmamaMoves[3] = new Move();
-        grandmama = new Buddy("Grandmama", 125, 0, 60, 10 grandmamaMoves, "");
+        grandmama = new Buddy("Grandmama", 125, 0, 60, 10, grandmamaMoves, "");
         buddyList[15] = grandmama;
+        
+        Buddy rocketRabbit = null;
+        Move[] rocketRabbitMoves = new Move[NUM_MOVES];
+        rocketRabbitMoves[0] = new Move();
+        rocketRabbitMoves[1] = new Move();
+        rocketRabbitMoves[2] = new Move();
+        rocketRabbitMoves[3] = new Move();
+        rocketRabbit = new Buddy("Rocket Rabbit", 150, 20, 30, rocketRabbitMoves, "");
+        buddyList[16] = rocketRabbit;
+        
+        Buddy sudsTheNinjaBorg = null;
+        Move[] sudsTheNinjaBorgMoves = new Move[NUM_MOVES];
+        sudsTheNinjaBorgMoves[0] = new Move();
+        sudsTheNinjaBorgMoves[1] = new Move();
+        sudsTheNinjaBorgMoves[2] = new Move();
+        sudsTheNinjaBorgMoves[3] = new Move();
+        sudsTheNinjaBorg = new Buddy("Suds The NinjaBorg", 120, 7, 45, 7, sudsTheNinjaBorgMoves, "");
+        buddyList[17] = sudsTheNinjaBorg;
+        
+        Buddy emberTheDemoness = null;
+        Move[] emberTheDemonessMoves = new Move[NUM_MOVES];
+        emberTheDemonessMoves[0] = new Move();
+        emberTheDemonessMoves[1] = new Move();
+        emberTheDemonessMoves[2] = new Move();
+        emberTheDemonessMoves[3] = new Move();
+        emberTheDemoness = new Buddy("Ember The Demoness", 250, 15, 35, 5, emberTheDemonessMoves, "A sassy, dark-haired demoness");
+        buddyList[18] = emberTheDemoness;
+        
+        Buddy traceyTheTortoise = null;
+        Move[] traceyTheTortoiseMoves = new Move[NUM_MOVES];
+        traceyTheTortoiseMoves[0] = new Move();
+        traceyTheTortoiseMoves[1] = new Move();
+        traceyTheTortoiseMoves[2] = new Move();
+        traceyTheTortoiseMoves[3] = new Move();
+        traceyTheTortoise = new Buddy("Tracey The Tortoise", 300, 5, 50, 10, traceyTheTortoiseMoves, "");
+        buddyList[19] = traceyTheTortoise;
     }
 }
