@@ -4,7 +4,7 @@ public class DefensePudding extends StatPudding
 {
     public DefensePudding()
     {
-        super("Defense Pudding", def, 1.25);
+        super("Defense Pudding", "def", 1.25);
     }
     
     public String toString()
