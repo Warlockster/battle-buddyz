@@ -4,12 +4,10 @@ public class StatPudding extends Item
 {
     private String statToChange;
     private double statMultiplier;
-    private int owner;
-    private boolean isUsed;
 
-    public StatPudding(String name, String statToChange, double statMultiplier, int owner, boolean isUsed)
+    public StatPudding(String name, int owner, String statToChange, double statMultiplier)
     {
-        super(name, owner, isUsed);
+        super(name, owner);
         this.statToChange = statToChange;
         this.statMultiplier = statMultiplier;
     }
