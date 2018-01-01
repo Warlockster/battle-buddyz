@@ -127,6 +127,42 @@ public class Main
         louieTheWrenchMoves[2] = new Move();
         louieTheWrenchMoves[3] = new Move();
         louieTheWrench = new Buddy("Louie The Wrench", 150, 15, 30, 5, louieTheWrenchMoves, "");
+        buddyList[11] = louieTheWrench;
         
+        Buddy slappyPappy = null;
+        Move[] slappyPappyMoves = new Move[NUM_MOVES];
+        slappyPappyMoves[0] = new Move();
+        slappyPappyMoves[1] = new Move();
+        slappyPappyMoves[2] = new Move();
+        slappyPappyMoves[3] = new Move();
+        slappyPappy = new Buddy("Slappy Pappy", 250, 10, 30, 0, slappyPappyMoves, "");
+        buddyList[12] = slappyPappy;
+        
+        Buddy sealyTheSeal = null;
+        Move[] sealyTheSealMoves = new Move[NUM_MOVES];
+        sealyTheSealMoves[0] = new Move();
+        sealyTheSealMoves[1] = new Move();
+        sealyTheSealMoves[2] = new Move();
+        sealyTheSealMoves[3] = new Move();
+        sealyTheSeal = new Buddy("Sealy The Seal", 100, 0, 70, 0, sealyTheSealMoves, "");
+        buddyList[13] = sealyTheSeal;
+        
+        Buddy peterPumpkinEater = null;
+        Move[] peterPumpkinEaterMoves = new Move[NUM_MOVES];
+        peterPumpkinEaterMoves[0] = new Move();
+        peterPumpkinEaterMoves[1] = new Move();
+        peterPumpkinEaterMoves[2] = new Move();
+        peterPumpkinEaterMoves[3] = new Move();
+        peterPumpkinEater = new Buddy("Peter Pumpkin Eater", 200, 5, 25, 5, peterPumpkinEaterMoves, "");
+        buddyList[14] = peterPumpkinEater;
+        
+        Buddy grandmama = null;
+        Move[] grandmamaMoves = new Move[NUM_MOVES];
+        grandmamaMoves[0] = new Move();
+        grandmamaMoves[1] = new Move();
+        grandmamaMoves[2] = new Move();
+        grandmamaMoves[3] = new Move();
+        grandmama = new Buddy("Grandmama", 125, 0, 60, 10 grandmamaMoves, "");
+        buddyList[15] = grandmama;
     }
 }
