@@ -2,9 +2,9 @@ package com.company;
 
 public class AccuracyPudding extends StatPudding
 {
-    public AccuracyPudding()
+    public AccuracyPudding(int owner)
     {
-        super("Accuracy Pudding", "acc", 1.25);
+        super("Accuracy Pudding", owner, "acc", 1.25);
     }
     
     public String toString()
