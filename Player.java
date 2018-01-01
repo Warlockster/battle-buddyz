@@ -4,11 +4,13 @@ public class Player
 {
     private String name;
     private Buddy[] battleBuddyz;
+    private int numAlive;
     
     public Player(String name, Buddy[] battleBuddyz)
     {
         this.name = name;
         this.battleBuddyz = battleBuddyz;
+        numAlive = TEAM_SIZE;
     }
     
     public String getName()
@@ -26,6 +28,11 @@ public class Player
         return battleBuddyz[index];
     }
     
+    public int getNumAlive()
+    {
+        return numAlive;
+    }
+    
     public void setName(String name)
     {
         this.name = name;
@@ -39,5 +46,15 @@ public class Player
     public void setBattleBuddy(int index, Buddy battleBuddy)
     {
         battleBuddyz[index] = battleBuddy;
+    }
+    
+    public void setNumAlive(int numAlive)
+    {
+        this.numAlive = numAlive;
+    }
+    
+    public void addAlive(int num)
+    {
+        numAlive += num;
     }
 }
