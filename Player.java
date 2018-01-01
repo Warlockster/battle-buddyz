@@ -4,12 +4,14 @@ public class Player
 {
     private String name;
     private Buddy[] battleBuddyz;
+    private List<Item> items;
     private int numAlive;
     
-    public Player(String name, Buddy[] battleBuddyz)
+    public Player(String name, Buddy[] battleBuddyz, List<Item> items)
     {
         this.name = name;
         this.battleBuddyz = battleBuddyz;
+        this.items = items;
         numAlive = TEAM_SIZE;
     }
     
