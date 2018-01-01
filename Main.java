@@ -47,5 +47,23 @@ public class Main
         sillyBillyMoves[3] = new Move();
         sillyBilly = new Buddy("Silly Billy", 100, 15, 2, 2, sillyBillyMoves, "");
         buddyList[2] = sillyBilly;
+        
+        Buddy bubblesTheClownbot = null;
+        Move[] bubblesTheClownbotMoves = new Move[NUM_MOVES];
+        bubblesTheClownbotMoves[0] = new Move();
+        bubblesTheClownbotMoves[1] = new Move();
+        bubblesTheClownbotMoves[2] = new Move();
+        bubblesTheClownbotMoves[3] = new Move();
+        bubblesTheClownbot = new Buddy("Bubbles the Clownbot", 250, 15, 3, 0, bubblesTheClownbotMoves, "");
+        buddyList[3] = bubblesTheClownbot;
+        
+        Buddy lunarPhoenix = null;
+        Move[] lunarPhoenixMoves = new Move[NUM_MOVES];
+        lunarPhoenixMoves[0] = new Move();
+        lunarPhoenixMoves[1] = new Move();
+        lunarPhoenixMoves[2] = new Move();
+        lunarPhoenixMoves[3] = new Move();
+        lunarPhoenix = new Buddy("Lunar Phoenix", 150, 10, 2, 10, lunarPhoenixMoves, "");
+        buddyList[4] = lunarPhoenix;
     }
 }
