@@ -152,7 +152,7 @@ public class Main
         peterPumpkinEaterMoves[0] = new DamageMove();
         peterPumpkinEaterMoves[1] = new DamageMove();
         peterPumpkinEaterMoves[2] = new StatMove();
-        peterPumpkinEaterMoves[3] = new Move();
+        peterPumpkinEaterMoves[3] = new HealMove();
         peterPumpkinEater = new Buddy("Peter Pumpkin Eater", 200, 5, 25, 5, peterPumpkinEaterMoves, "");
         buddyList[14] = peterPumpkinEater;
         
@@ -161,7 +161,7 @@ public class Main
         grandmamaMoves[0] = new StatMove();
         grandmamaMoves[1] = new StatMove();
         grandmamaMoves[2] = new DamageMove();
-        grandmamaMoves[3] = new Move();
+        grandmamaMoves[3] = new HealMove();
         grandmama = new Buddy("Grandmama", 125, 0, 60, 10, grandmamaMoves, "");
         buddyList[15] = grandmama;
         
