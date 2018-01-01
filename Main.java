@@ -5,17 +5,53 @@ import java.io.*;
 
 public class Main
 {
+    public static final NONE = 0;
+    public static final PLAYER_1 = 1;
+    public static final PLAYER_2 = 2;
     public static final int TEAM_SIZE = 6;
     public static final int NUM_MOVES = 4;
     public static final int NUM_BUDDYZ = 20;
 
     private static Buddy[] buddyList = new Buddy[NUM_BUDDYZ];
+    private static Item[] itemList = new Item[NUM_ITEMS]
 
     public static void main(String[] args) throws IOException
     {
         Scanner scan = new Scanner(System.in);
-
-
+        List<Item> fridge = new ArrayList<Item>();
+        fridge.add(new HealingPudding(NONE));
+        fridge.add(new HealingPudding(NONE));
+        fridge.add(new HealingPudding(NONE));
+        fridge.add(new AttackPudding(NONE));
+        fridge.add(new AttackPudding(NONE));
+        fridge.add(new AttackPudding(NONE));
+        fridge.add(new EvasivenessPudding(NONE));
+        fridge.add(new EvasivenessPudding(NONE));
+        fridge.add(new EvasivenessPudding(NONE));
+        fridge.add(new AccuracyPudding(NONE));
+        fridge.add(new AccuracyPudding(NONE));
+        fridge.add(new AccuracyPudding(NONE));
+        fridge.add(new RevitalizingPudding(NONE));
+        fridge.add(new RevitalizingPudding(NONE));
+        fridge.add(new RevitalizingPudding(NONE));
+    }
+    
+    private void printDivider()
+    {
+        for(int i = 0; i < 35; i++)
+        {
+            System.out.print("=");
+        }
+        System.out.println();
+    }
+    
+    private void initItemList()
+    {
+        itemList[0] = new HealingPudding();
+        itemList[1] = new AttackPudding();
+        itemList[2] = new DefensePudding();
+        itemList[3] = new AccuracyPudding();
+        itemList[4] = new RevitalizingPudding();
     }
 
     private void initBuddyList()
