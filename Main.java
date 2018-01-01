@@ -36,7 +36,7 @@ public class Main
         albertTheUnicornMoves[1] = new Move();
         albertTheUnicornMoves[2] = new Move();
         albertTheUnicornMoves[3] = new Move();
-        albertTheUnicorn = new Buddy("Albert the Unicorn", 200, 10, 2, 5, albertTheUnicornMoves, "");
+        albertTheUnicorn = new Buddy("Albert the Unicorn", 200, 10, 50, 5, albertTheUnicornMoves, "");
         buddyList[1] = albertTheUnicorn;
        
         Buddy sillyBilly = null;
@@ -45,7 +45,7 @@ public class Main
         sillyBillyMoves[1] = new Move();
         sillyBillyMoves[2] = new Move();
         sillyBillyMoves[3] = new Move();
-        sillyBilly = new Buddy("Silly Billy", 100, 15, 2, 2, sillyBillyMoves, "");
+        sillyBilly = new Buddy("Silly Billy", 100, 15, 25, 2, sillyBillyMoves, "");
         buddyList[2] = sillyBilly;
         
         Buddy bubblesTheClownbot = null;
@@ -54,7 +54,7 @@ public class Main
         bubblesTheClownbotMoves[1] = new Move();
         bubblesTheClownbotMoves[2] = new Move();
         bubblesTheClownbotMoves[3] = new Move();
-        bubblesTheClownbot = new Buddy("Bubbles the Clownbot", 250, 15, 3, 0, bubblesTheClownbotMoves, "");
+        bubblesTheClownbot = new Buddy("Bubbles the Clownbot", 250, 15, 70, 0, bubblesTheClownbotMoves, "");
         buddyList[3] = bubblesTheClownbot;
         
         Buddy lunarPhoenix = null;
@@ -63,7 +63,16 @@ public class Main
         lunarPhoenixMoves[1] = new Move();
         lunarPhoenixMoves[2] = new Move();
         lunarPhoenixMoves[3] = new Move();
-        lunarPhoenix = new Buddy("Lunar Phoenix", 150, 10, 2, 10, lunarPhoenixMoves, "");
+        lunarPhoenix = new Buddy("Lunar Phoenix", 150, 10, 40, 10, lunarPhoenixMoves, "");
         buddyList[4] = lunarPhoenix;
+        
+        Buddy solarEagle = null;
+        Move[] solarEagleMoves = new Move[NUM_MOVES];
+        solarEagleMoves[0] = new Move();
+        solarEagleMoves[1] = new Move();
+        solarEagleMoves[2] = new Move();
+        solarEagleMoves[3] = new Move();
+        solarEagle = new Buddy("Solar Eagle", 200, 15, 30, 7, solarEagleMoves, "");
+        buddyList[5] = solarEagle;
     }
 }
