@@ -2,8 +2,16 @@ package com.company;
 
 public class RevitalizingPudding extends Item
 {
-    public RevitalizingPudding(String name)
+    private int target;
+    
+    public RevitalizingPudding(String name, int target)
     {
         super(name);
+        this.target = target;
+    }
+    
+    public int getTarget()
+    {
+        return target;
     }
 }
