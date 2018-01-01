@@ -32,10 +32,10 @@ public class Main
 
         Buddy albertTheUnicorn = null;
         Move[] albertTheUnicornMoves = new Move[NUM_MOVES];
-        albertTheUnicornMoves[0] = new DamageMove();
-        albertTheUnicornMoves[1] = new DamageMove();
-        albertTheUnicornMoves[2] = new DamageMove();
-        albertTheUnicornMoves[3] = new StatMove();
+        albertTheUnicornMoves[0] = new DamageMove("Side Kick", 85, 40, 1);
+        albertTheUnicornMoves[1] = new DamageMove("Horn Thrust", 70, 60, 2);
+        albertTheUnicornMoves[2] = new DamageMove("Rainbow Blast", 75, 90, 0.5, true);
+        albertTheUnicornMoves[3] = new StatMove("Giddy Up", 100, "atk", SELF, 1.25);
         albertTheUnicorn = new Buddy("Albert The Unicorn", 200, 10, 50, 5, albertTheUnicornMoves, "");
         buddyList[1] = albertTheUnicorn;
        
