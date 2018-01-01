@@ -22,8 +22,8 @@ public class Main
     {
         Buddy flaxon = null;
         Move[] flaxonMoves = new Move[NUM_MOVES];
-        flaxonMoves[0] = new DamageMove(/*name, acc, priority, power, critChance, critMult(if needed), needsCharge*/);
-        flaxonMoves[1] = new StatMove(/*name, acc, priority, stat, target(SELF or ENEMY), statChange*/);
+        flaxonMoves[0] = new DamageMove(/*name, acc, power, critChance, critMult(if needed), needsCharge*/);
+        flaxonMoves[1] = new StatMove(/*name, acc, stat, target(SELF or ENEMY), statChange*/);
         flaxonMoves[2] = new DamageMove();
         flaxonMoves[3] = new StatMove();
         //                           hp   atk def eva moveList     bio
