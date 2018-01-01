@@ -11,4 +11,24 @@ public class HealingPudding extends Item
         this.healAmt = healAmt;
         this.target = target;
     }
+    
+    public int getHealAmt()
+    {
+        return healAmt;
+    }
+    
+    public int getTarget()
+    {
+        return target;
+    }
+    
+    public void setHealAmt(int healAmt)
+    {
+        this.healAmt = healAmt;
+    }
+    
+    public void setTarget(int target)
+    {
+        this.target = target;
+    }
 }
