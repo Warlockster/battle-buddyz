@@ -150,7 +150,7 @@ public class Main
         Buddy peterPumpkinEater = null;
         Move[] peterPumpkinEaterMoves = new Move[NUM_MOVES];
         peterPumpkinEaterMoves[0] = new DamageMove("Jack-o-Bomb", 75, 55, 2);
-        peterPumpkinEaterMoves[1] = new DamageMove("Pumpkin Throw, 85, 40, 2);
+        peterPumpkinEaterMoves[1] = new DamageMove("Pumpkin Throw", 85, 40, 2);
         peterPumpkinEaterMoves[2] = new StatMove("Pumpkin Shield", 95, "def", SELF, 1.25);
         peterPumpkinEaterMoves[3] = new HealMove("Pumpkin Pie", 30);
         peterPumpkinEater = new Buddy("Peter Pumpkin Eater", 200, 5, 25, 5, peterPumpkinEaterMoves, "His name is Peter and he loves eating pumpkins!");
