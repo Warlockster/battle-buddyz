@@ -6,7 +6,7 @@ public class AttackPudding extends StatPudding
     {
         super("Attack Pudding", owner, "atk", 1.25)
     }
-    f
+    
     public String toString()
     {
         return "Attack Pudding" +
