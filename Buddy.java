@@ -158,7 +158,7 @@ public class Buddy
 
     public String toString()
     {
-        return "Name: " + name +
+        return name +
                 "\nHealth:\t" + hp +
                 "\nAttack:\t" + atk +
                 "\nDefense:\t" + def +
