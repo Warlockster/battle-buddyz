@@ -58,9 +58,9 @@ public class Main
     {
         Buddy flaxon = null;
         Move[] flaxonMoves = new Move[NUM_MOVES];
-        flaxonMoves[0] = new DamageMove("Whack", 90, 35, 1); /*name, acc, power, critChance, critMult(if needed), needsCharge*/
+        flaxonMoves[0] = new DamageMove("Ray Gun", 90, 35, 1); /*name, acc, power, critChance, critMult(if needed), needsCharge*/
         flaxonMoves[1] = new StatMove("Wrap", 95, "eva", ENEMY, 0.75);   /*name, acc, stat, target(SELF or ENEMY), statChange*/
-        flaxonMoves[2] = new DamageMove("Ink Blast", 75, 55, 1);
+        flaxonMoves[2] = new DamageMove("Ray Gun Blast", 75, 55, 1);
         flaxonMoves[3] = new StatMove("Acid Ink", 90, "def", ENEMY, 0.5);
         //                           hp   atk def eva moveList     bio
         flaxon = new Buddy("Flaxon", 175, 5, 50, 5, flaxonMoves, "");
