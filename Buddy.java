@@ -12,14 +12,12 @@ public class Buddy
     private int def;
     // Evasiveness
     private int eva;
-    // Move List
-    private Move[] moveList;
     // Bio
     private String bio;
     // Owner
     private int owner;
 
-    public Buddy(String name, int hp, int atk, int def, int eva, Move[] moveList, String bio)
+    public Buddy(String name, int hp, int atk, int def, int eva, String bio)
     {
         this.name = name;
         this.hp = hp;
@@ -60,16 +58,6 @@ public class Buddy
     {
         return eva;
     }
-
-    public Move[] getMoveList()
-    {
-        return moveList;
-    }
-
-    public Move getMove(int index)
-    {
-        return moveList[index];
-    }
     
     public int getOwner()
     {
@@ -99,16 +87,6 @@ public class Buddy
     public void setEva(int eva)
     {
         this.eva = eva;
-    }
-
-    public void setMoveList(Move[] moveList)
-    {
-        this.moveList = moveList;
-    }
-
-    public void setMove(int index, Move move)
-    {
-        moveList[index] = move;
     }
     
     public void setOwner(int owner)
